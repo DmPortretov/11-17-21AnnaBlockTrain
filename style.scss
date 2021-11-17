@@ -1,9 +1,10 @@
-$light: #F9F6F1;
-$grey: #CBCFD4;
-$lightgray: #F4F4F4;
+
 $accent: #D7B399;
 $dark: #212121;
-$darkgray: #8d8d8d;
+$light: #F9F6F1;
+$grey: #CBCFD4;
+$ligh-tgray: #F4F4F4;
+$dark-gray: #8d8d8d;
 $important: #d84033;
 
 .page-light {
@@ -14,7 +15,7 @@ $important: #d84033;
     margin: 0 auto;
 }
 .header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
