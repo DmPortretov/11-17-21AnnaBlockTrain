@@ -5,3 +5,16 @@ $accent: #D7B399;
 $dark: #212121;
 $darkgray: #8d8d8d;
 $important: #d84033;
+
+.page-light {
+    background-color: $light;
+}
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
