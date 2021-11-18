@@ -36,21 +36,45 @@ body {
 }
 .cart {
 background-image: url(../img/korzinka.svg);
-padding-left: 50px;
+padding-left: 45px;
 display: block;
 width: 30px;
 height: 30px;
 background-repeat: no-repeat;
 background-position: 0 center ;
     &-count {
-        background-image: url(../img/five.svg);
+        background-image: url(../img/strelka.svg);
         background-repeat: no-repeat;
         background-position: 0 center ;
         color: white;
         font-size: 12px;
         font-weight: 700;
-        padding: 10px 15px;
+        padding: 10px 24px;
         display: block;
 
+    }
+}
+.btn {
+    background-color: $accent;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    &-item {
+        flex: 0 0 50%;
+    }
+    .sale {
+        &-description {
+            font-size: 30px;
+        }
+        &-title {
+            font-size: 55px;
+            font-weight: 700;
+        }
     }
 }
