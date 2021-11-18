@@ -16,18 +16,21 @@ body {
 .wrapper {
     max-width: 1110px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 126px;
 }
 .nav {
     display: flex;
     list-style-type: none;
     padding-left: 0;
     &-item {
-        margin-left: 52px;
+        margin-right: 52px;
     }
     &-link {
         color: $dark;
@@ -75,6 +78,23 @@ background-position: 0 center ;
         &-title {
             font-size: 55px;
             font-weight: 700;
+        }
+    }
+}
+.box {
+    position: relative;
+    &-price {
+        position: absolute;
+        right: 0;
+        text-align: right;
+        &-old{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        &-new {
+            font-size: 24px;
+            font-weight: 700;
+            color: $important;
         }
     }
 }
